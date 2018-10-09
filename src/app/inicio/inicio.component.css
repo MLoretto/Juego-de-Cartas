@@ -1,0 +1,10 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedorBoton {
+    background: green;
+    width: 120px;
+  }
