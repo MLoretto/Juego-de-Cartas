@@ -1,12 +1,15 @@
-<div  class="scene" >
-  <div #carta class="card" (click)='flip();'> 
-    <div class="card__face card__face--front">
+<div class="tp-wrapper">
+    <div #carta class="tp-box" (click)="toggleFlip()" [@flipState]="flipState" [@desaparecer]="opacidad"    
+      (@flipState.start)="onAnimationEvent($event)"
+      (@flipState.done)="onAnimationEvent($event)">
+      <div class="tp-box__side tp-box__front">
         <img class="carta" src="assets/img/Fondo.png">
-    </div>
-    <div class="card__face card__face--back">
+      </div>
+      <div class="tp-box__side tp-box__back">
         <img class="carta" src="{{numeroCarta}}">
+      </div>
     </div>
   </div>
-</div>
+  
 
 

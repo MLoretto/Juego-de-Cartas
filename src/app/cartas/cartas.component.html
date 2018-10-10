@@ -1,15 +1,15 @@
 <div class="containerCards justify-content-center">
-  <div class="row justify-content-center p-3">
-    <app-carta [numeroCarta]="'assets/img/2.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/A.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/3.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/2.png'"></app-carta>
+    <div class="row justify-content-center p-3">
+      <app-carta [numeroCarta]="cartasAzar[0]" (flipEvent)='flipCart($event)' ></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[1]" (flipEvent)='flipCart($event)'></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[2]" (flipEvent)='flipCart($event)'></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[3]" (flipEvent)='flipCart($event)'></app-carta>
+    </div>
+    <div class="row  justify-content-center">
+      <app-carta [numeroCarta]="cartasAzar[4]" (flipEvent)='flipCart($event)'></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[5]" (flipEvent)='flipCart($event)'></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[6]" (flipEvent)='flipCart($event)'></app-carta>
+      <app-carta [numeroCarta]="cartasAzar[7]" (flipEvent)='flipCart($event)'></app-carta>
+    </div>            
   </div>
-  <div class="row justify-content-center">
-    <app-carta [numeroCarta]="'assets/img/4.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/A.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/3.png'"></app-carta>
-    <app-carta [numeroCarta]="'assets/img/4.png'"></app-carta>
-  </div>            
-</div>
-
+  

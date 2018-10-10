@@ -2,3 +2,18 @@
     padding:  100px 20px 5px 20px;
     width: 95%;
 }
+
+.mensaje{
+    position:absolute;
+    background:blue;
+    top: 20vh;
+    left: 30vw;
+    width: 400px;
+    height: 150px;
+    opacity:0;
+    display: none;
+}
+.mensaje h1{
+    color:white;
+
+}
