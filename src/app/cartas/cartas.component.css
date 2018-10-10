@@ -1,5 +1,4 @@
-.lienzo{
-    padding:  5px 20px 5px 20px;
-    background: green;
+.containerCards{
+    padding:  100px 20px 5px 20px;
     width: 95%;
 }

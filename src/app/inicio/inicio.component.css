@@ -1,10 +1,13 @@
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .contenedorBoton {
-    background: green;
-    width: 120px;
-  }
+.image{
+  background:no-repeat center;
+  padding-top: 150px; 
+}
+.contenedorBoton{
+  padding-top: 30px;
+}
+
+.linkJugar{
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+}
